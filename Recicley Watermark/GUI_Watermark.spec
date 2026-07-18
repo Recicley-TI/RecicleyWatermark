@@ -5,7 +5,10 @@ a = Analysis(
     ['GUI_Watermark.py'],
     pathex=[],
     binaries=[],
-    datas=[],
+    datas=[
+        ('rec.jpg', '.'),
+        ('poppler-0.68.0', 'poppler-0.68.0'),
+    ],
     hiddenimports=[],
     hookspath=[],
     hooksconfig={},

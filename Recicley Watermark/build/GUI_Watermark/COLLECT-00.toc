@@ -429,8 +429,15 @@
    'Watermark\\build\\GUI_Watermark\\base_library.zip',
    'DATA'),
   ('libcrypto-3.dll', 'L:\\Python\\DLLs\\libcrypto-3.dll', 'BINARY'),
+  ('libexpat-1.dll', 'L:\\Git\\mingw64\\bin\\libexpat-1.dll', 'BINARY'),
   ('libffi-8.dll', 'L:\\Python\\DLLs\\libffi-8.dll', 'BINARY'),
+  ('libgcc_s_seh-1.dll', 'L:\\Git\\mingw64\\bin\\libgcc_s_seh-1.dll', 'BINARY'),
+  ('libiconv-2.dll', 'L:\\Git\\mingw64\\bin\\libiconv-2.dll', 'BINARY'),
   ('libssl-3.dll', 'L:\\Python\\DLLs\\libssl-3.dll', 'BINARY'),
+  ('libstdc++-6.dll', 'L:\\Git\\mingw64\\bin\\libstdc++-6.dll', 'BINARY'),
+  ('libwinpthread-1.dll',
+   'L:\\Git\\mingw64\\bin\\libwinpthread-1.dll',
+   'BINARY'),
   ('numpy-2.4.6.dist-info\\DELVEWHEEL',
    'L:\\Python\\Lib\\site-packages\\numpy-2.4.6.dist-info\\DELVEWHEEL',
    'DATA'),
@@ -545,8 +552,303 @@
   ('numpy\\random\\mtrand.cp313-win_amd64.pyd',
    'L:\\Python\\Lib\\site-packages\\numpy\\random\\mtrand.cp313-win_amd64.pyd',
    'EXTENSION'),
+  ('poppler-0.68.0\\bin\\AUTHORS',
+   'C:\\Users\\leona\\Downloads\\Recicley '
+   'Watermark-20250911T171225Z-1-001\\Recicley '
+   'Watermark\\poppler-0.68.0\\bin\\AUTHORS',
+   'DATA'),
+  ('poppler-0.68.0\\bin\\BINARIES',
+   'C:\\Users\\leona\\Downloads\\Recicley '
+   'Watermark-20250911T171225Z-1-001\\Recicley '
+   'Watermark\\poppler-0.68.0\\bin\\BINARIES',
+   'DATA'),
+  ('poppler-0.68.0\\bin\\COPYING',
+   'C:\\Users\\leona\\Downloads\\Recicley '
+   'Watermark-20250911T171225Z-1-001\\Recicley '
+   'Watermark\\poppler-0.68.0\\bin\\COPYING',
+   'DATA'),
+  ('poppler-0.68.0\\bin\\COPYING3',
+   'C:\\Users\\leona\\Downloads\\Recicley '
+   'Watermark-20250911T171225Z-1-001\\Recicley '
+   'Watermark\\poppler-0.68.0\\bin\\COPYING3',
+   'DATA'),
+  ('poppler-0.68.0\\bin\\README',
+   'C:\\Users\\leona\\Downloads\\Recicley '
+   'Watermark-20250911T171225Z-1-001\\Recicley '
+   'Watermark\\poppler-0.68.0\\bin\\README',
+   'DATA'),
+  ('poppler-0.68.0\\bin\\README-XPDF',
+   'C:\\Users\\leona\\Downloads\\Recicley '
+   'Watermark-20250911T171225Z-1-001\\Recicley '
+   'Watermark\\poppler-0.68.0\\bin\\README-XPDF',
+   'DATA'),
+  ('poppler-0.68.0\\bin\\freetype6.dll',
+   'C:\\Users\\leona\\Downloads\\Recicley '
+   'Watermark-20250911T171225Z-1-001\\Recicley '
+   'Watermark\\poppler-0.68.0\\bin\\freetype6.dll',
+   'BINARY'),
+  ('poppler-0.68.0\\bin\\jpeg62.dll',
+   'C:\\Users\\leona\\Downloads\\Recicley '
+   'Watermark-20250911T171225Z-1-001\\Recicley '
+   'Watermark\\poppler-0.68.0\\bin\\jpeg62.dll',
+   'BINARY'),
+  ('poppler-0.68.0\\bin\\libcairo-2.dll',
+   'C:\\Users\\leona\\Downloads\\Recicley '
+   'Watermark-20250911T171225Z-1-001\\Recicley '
+   'Watermark\\poppler-0.68.0\\bin\\libcairo-2.dll',
+   'BINARY'),
+  ('poppler-0.68.0\\bin\\libexpat-1.dll',
+   'C:\\Users\\leona\\Downloads\\Recicley '
+   'Watermark-20250911T171225Z-1-001\\Recicley '
+   'Watermark\\poppler-0.68.0\\bin\\libexpat-1.dll',
+   'BINARY'),
+  ('poppler-0.68.0\\bin\\libfontconfig-1.dll',
+   'C:\\Users\\leona\\Downloads\\Recicley '
+   'Watermark-20250911T171225Z-1-001\\Recicley '
+   'Watermark\\poppler-0.68.0\\bin\\libfontconfig-1.dll',
+   'BINARY'),
+  ('poppler-0.68.0\\bin\\libgcc_s_dw2-1.dll',
+   'C:\\Users\\leona\\Downloads\\Recicley '
+   'Watermark-20250911T171225Z-1-001\\Recicley '
+   'Watermark\\poppler-0.68.0\\bin\\libgcc_s_dw2-1.dll',
+   'BINARY'),
+  ('poppler-0.68.0\\bin\\libpixman-1-0.dll',
+   'C:\\Users\\leona\\Downloads\\Recicley '
+   'Watermark-20250911T171225Z-1-001\\Recicley '
+   'Watermark\\poppler-0.68.0\\bin\\libpixman-1-0.dll',
+   'BINARY'),
+  ('poppler-0.68.0\\bin\\libpng16-16.dll',
+   'C:\\Users\\leona\\Downloads\\Recicley '
+   'Watermark-20250911T171225Z-1-001\\Recicley '
+   'Watermark\\poppler-0.68.0\\bin\\libpng16-16.dll',
+   'BINARY'),
+  ('poppler-0.68.0\\bin\\libpoppler-79.dll',
+   'C:\\Users\\leona\\Downloads\\Recicley '
+   'Watermark-20250911T171225Z-1-001\\Recicley '
+   'Watermark\\poppler-0.68.0\\bin\\libpoppler-79.dll',
+   'BINARY'),
+  ('poppler-0.68.0\\bin\\libpoppler-cpp-0.dll',
+   'C:\\Users\\leona\\Downloads\\Recicley '
+   'Watermark-20250911T171225Z-1-001\\Recicley '
+   'Watermark\\poppler-0.68.0\\bin\\libpoppler-cpp-0.dll',
+   'BINARY'),
+  ('poppler-0.68.0\\bin\\libstdc++-6.dll',
+   'C:\\Users\\leona\\Downloads\\Recicley '
+   'Watermark-20250911T171225Z-1-001\\Recicley '
+   'Watermark\\poppler-0.68.0\\bin\\libstdc++-6.dll',
+   'BINARY'),
+  ('poppler-0.68.0\\bin\\libtiff3.dll',
+   'C:\\Users\\leona\\Downloads\\Recicley '
+   'Watermark-20250911T171225Z-1-001\\Recicley '
+   'Watermark\\poppler-0.68.0\\bin\\libtiff3.dll',
+   'BINARY'),
+  ('poppler-0.68.0\\bin\\pdfdetach.exe',
+   'C:\\Users\\leona\\Downloads\\Recicley '
+   'Watermark-20250911T171225Z-1-001\\Recicley '
+   'Watermark\\poppler-0.68.0\\bin\\pdfdetach.exe',
+   'BINARY'),
+  ('poppler-0.68.0\\bin\\pdffonts.exe',
+   'C:\\Users\\leona\\Downloads\\Recicley '
+   'Watermark-20250911T171225Z-1-001\\Recicley '
+   'Watermark\\poppler-0.68.0\\bin\\pdffonts.exe',
+   'BINARY'),
+  ('poppler-0.68.0\\bin\\pdfimages.exe',
+   'C:\\Users\\leona\\Downloads\\Recicley '
+   'Watermark-20250911T171225Z-1-001\\Recicley '
+   'Watermark\\poppler-0.68.0\\bin\\pdfimages.exe',
+   'BINARY'),
+  ('poppler-0.68.0\\bin\\pdfinfo.exe',
+   'C:\\Users\\leona\\Downloads\\Recicley '
+   'Watermark-20250911T171225Z-1-001\\Recicley '
+   'Watermark\\poppler-0.68.0\\bin\\pdfinfo.exe',
+   'BINARY'),
+  ('poppler-0.68.0\\bin\\pdfseparate.exe',
+   'C:\\Users\\leona\\Downloads\\Recicley '
+   'Watermark-20250911T171225Z-1-001\\Recicley '
+   'Watermark\\poppler-0.68.0\\bin\\pdfseparate.exe',
+   'BINARY'),
+  ('poppler-0.68.0\\bin\\pdftocairo.exe',
+   'C:\\Users\\leona\\Downloads\\Recicley '
+   'Watermark-20250911T171225Z-1-001\\Recicley '
+   'Watermark\\poppler-0.68.0\\bin\\pdftocairo.exe',
+   'BINARY'),
+  ('poppler-0.68.0\\bin\\pdftohtml.exe',
+   'C:\\Users\\leona\\Downloads\\Recicley '
+   'Watermark-20250911T171225Z-1-001\\Recicley '
+   'Watermark\\poppler-0.68.0\\bin\\pdftohtml.exe',
+   'BINARY'),
+  ('poppler-0.68.0\\bin\\pdftoppm.exe',
+   'C:\\Users\\leona\\Downloads\\Recicley '
+   'Watermark-20250911T171225Z-1-001\\Recicley '
+   'Watermark\\poppler-0.68.0\\bin\\pdftoppm.exe',
+   'BINARY'),
+  ('poppler-0.68.0\\bin\\pdftops.exe',
+   'C:\\Users\\leona\\Downloads\\Recicley '
+   'Watermark-20250911T171225Z-1-001\\Recicley '
+   'Watermark\\poppler-0.68.0\\bin\\pdftops.exe',
+   'BINARY'),
+  ('poppler-0.68.0\\bin\\pdftotext.exe',
+   'C:\\Users\\leona\\Downloads\\Recicley '
+   'Watermark-20250911T171225Z-1-001\\Recicley '
+   'Watermark\\poppler-0.68.0\\bin\\pdftotext.exe',
+   'BINARY'),
+  ('poppler-0.68.0\\bin\\pdfunite.exe',
+   'C:\\Users\\leona\\Downloads\\Recicley '
+   'Watermark-20250911T171225Z-1-001\\Recicley '
+   'Watermark\\poppler-0.68.0\\bin\\pdfunite.exe',
+   'BINARY'),
+  ('poppler-0.68.0\\bin\\zlib1.dll',
+   'C:\\Users\\leona\\Downloads\\Recicley '
+   'Watermark-20250911T171225Z-1-001\\Recicley '
+   'Watermark\\poppler-0.68.0\\bin\\zlib1.dll',
+   'BINARY'),
+  ('poppler-0.68.0\\include\\poppler\\cpp\\poppler-document.h',
+   'C:\\Users\\leona\\Downloads\\Recicley '
+   'Watermark-20250911T171225Z-1-001\\Recicley '
+   'Watermark\\poppler-0.68.0\\include\\poppler\\cpp\\poppler-document.h',
+   'DATA'),
+  ('poppler-0.68.0\\include\\poppler\\cpp\\poppler-embedded-file.h',
+   'C:\\Users\\leona\\Downloads\\Recicley '
+   'Watermark-20250911T171225Z-1-001\\Recicley '
+   'Watermark\\poppler-0.68.0\\include\\poppler\\cpp\\poppler-embedded-file.h',
+   'DATA'),
+  ('poppler-0.68.0\\include\\poppler\\cpp\\poppler-font.h',
+   'C:\\Users\\leona\\Downloads\\Recicley '
+   'Watermark-20250911T171225Z-1-001\\Recicley '
+   'Watermark\\poppler-0.68.0\\include\\poppler\\cpp\\poppler-font.h',
+   'DATA'),
+  ('poppler-0.68.0\\include\\poppler\\cpp\\poppler-global.h',
+   'C:\\Users\\leona\\Downloads\\Recicley '
+   'Watermark-20250911T171225Z-1-001\\Recicley '
+   'Watermark\\poppler-0.68.0\\include\\poppler\\cpp\\poppler-global.h',
+   'DATA'),
+  ('poppler-0.68.0\\include\\poppler\\cpp\\poppler-image.h',
+   'C:\\Users\\leona\\Downloads\\Recicley '
+   'Watermark-20250911T171225Z-1-001\\Recicley '
+   'Watermark\\poppler-0.68.0\\include\\poppler\\cpp\\poppler-image.h',
+   'DATA'),
+  ('poppler-0.68.0\\include\\poppler\\cpp\\poppler-page-renderer.h',
+   'C:\\Users\\leona\\Downloads\\Recicley '
+   'Watermark-20250911T171225Z-1-001\\Recicley '
+   'Watermark\\poppler-0.68.0\\include\\poppler\\cpp\\poppler-page-renderer.h',
+   'DATA'),
+  ('poppler-0.68.0\\include\\poppler\\cpp\\poppler-page-transition.h',
+   'C:\\Users\\leona\\Downloads\\Recicley '
+   'Watermark-20250911T171225Z-1-001\\Recicley '
+   'Watermark\\poppler-0.68.0\\include\\poppler\\cpp\\poppler-page-transition.h',
+   'DATA'),
+  ('poppler-0.68.0\\include\\poppler\\cpp\\poppler-page.h',
+   'C:\\Users\\leona\\Downloads\\Recicley '
+   'Watermark-20250911T171225Z-1-001\\Recicley '
+   'Watermark\\poppler-0.68.0\\include\\poppler\\cpp\\poppler-page.h',
+   'DATA'),
+  ('poppler-0.68.0\\include\\poppler\\cpp\\poppler-rectangle.h',
+   'C:\\Users\\leona\\Downloads\\Recicley '
+   'Watermark-20250911T171225Z-1-001\\Recicley '
+   'Watermark\\poppler-0.68.0\\include\\poppler\\cpp\\poppler-rectangle.h',
+   'DATA'),
+  ('poppler-0.68.0\\include\\poppler\\cpp\\poppler-toc.h',
+   'C:\\Users\\leona\\Downloads\\Recicley '
+   'Watermark-20250911T171225Z-1-001\\Recicley '
+   'Watermark\\poppler-0.68.0\\include\\poppler\\cpp\\poppler-toc.h',
+   'DATA'),
+  ('poppler-0.68.0\\include\\poppler\\cpp\\poppler-version.h',
+   'C:\\Users\\leona\\Downloads\\Recicley '
+   'Watermark-20250911T171225Z-1-001\\Recicley '
+   'Watermark\\poppler-0.68.0\\include\\poppler\\cpp\\poppler-version.h',
+   'DATA'),
+  ('poppler-0.68.0\\lib\\libpoppler-cpp.dll.a',
+   'C:\\Users\\leona\\Downloads\\Recicley '
+   'Watermark-20250911T171225Z-1-001\\Recicley '
+   'Watermark\\poppler-0.68.0\\lib\\libpoppler-cpp.dll.a',
+   'DATA'),
+  ('poppler-0.68.0\\lib\\libpoppler.dll.a',
+   'C:\\Users\\leona\\Downloads\\Recicley '
+   'Watermark-20250911T171225Z-1-001\\Recicley '
+   'Watermark\\poppler-0.68.0\\lib\\libpoppler.dll.a',
+   'DATA'),
+  ('poppler-0.68.0\\lib\\pkgconfig\\poppler-cairo.pc',
+   'C:\\Users\\leona\\Downloads\\Recicley '
+   'Watermark-20250911T171225Z-1-001\\Recicley '
+   'Watermark\\poppler-0.68.0\\lib\\pkgconfig\\poppler-cairo.pc',
+   'DATA'),
+  ('poppler-0.68.0\\lib\\pkgconfig\\poppler-cpp.pc',
+   'C:\\Users\\leona\\Downloads\\Recicley '
+   'Watermark-20250911T171225Z-1-001\\Recicley '
+   'Watermark\\poppler-0.68.0\\lib\\pkgconfig\\poppler-cpp.pc',
+   'DATA'),
+  ('poppler-0.68.0\\lib\\pkgconfig\\poppler-splash.pc',
+   'C:\\Users\\leona\\Downloads\\Recicley '
+   'Watermark-20250911T171225Z-1-001\\Recicley '
+   'Watermark\\poppler-0.68.0\\lib\\pkgconfig\\poppler-splash.pc',
+   'DATA'),
+  ('poppler-0.68.0\\lib\\pkgconfig\\poppler.pc',
+   'C:\\Users\\leona\\Downloads\\Recicley '
+   'Watermark-20250911T171225Z-1-001\\Recicley '
+   'Watermark\\poppler-0.68.0\\lib\\pkgconfig\\poppler.pc',
+   'DATA'),
+  ('poppler-0.68.0\\share\\man\\man1\\pdfdetach.1',
+   'C:\\Users\\leona\\Downloads\\Recicley '
+   'Watermark-20250911T171225Z-1-001\\Recicley '
+   'Watermark\\poppler-0.68.0\\share\\man\\man1\\pdfdetach.1',
+   'DATA'),
+  ('poppler-0.68.0\\share\\man\\man1\\pdffonts.1',
+   'C:\\Users\\leona\\Downloads\\Recicley '
+   'Watermark-20250911T171225Z-1-001\\Recicley '
+   'Watermark\\poppler-0.68.0\\share\\man\\man1\\pdffonts.1',
+   'DATA'),
+  ('poppler-0.68.0\\share\\man\\man1\\pdfimages.1',
+   'C:\\Users\\leona\\Downloads\\Recicley '
+   'Watermark-20250911T171225Z-1-001\\Recicley '
+   'Watermark\\poppler-0.68.0\\share\\man\\man1\\pdfimages.1',
+   'DATA'),
+  ('poppler-0.68.0\\share\\man\\man1\\pdfinfo.1',
+   'C:\\Users\\leona\\Downloads\\Recicley '
+   'Watermark-20250911T171225Z-1-001\\Recicley '
+   'Watermark\\poppler-0.68.0\\share\\man\\man1\\pdfinfo.1',
+   'DATA'),
+  ('poppler-0.68.0\\share\\man\\man1\\pdfseparate.1',
+   'C:\\Users\\leona\\Downloads\\Recicley '
+   'Watermark-20250911T171225Z-1-001\\Recicley '
+   'Watermark\\poppler-0.68.0\\share\\man\\man1\\pdfseparate.1',
+   'DATA'),
+  ('poppler-0.68.0\\share\\man\\man1\\pdftocairo.1',
+   'C:\\Users\\leona\\Downloads\\Recicley '
+   'Watermark-20250911T171225Z-1-001\\Recicley '
+   'Watermark\\poppler-0.68.0\\share\\man\\man1\\pdftocairo.1',
+   'DATA'),
+  ('poppler-0.68.0\\share\\man\\man1\\pdftohtml.1',
+   'C:\\Users\\leona\\Downloads\\Recicley '
+   'Watermark-20250911T171225Z-1-001\\Recicley '
+   'Watermark\\poppler-0.68.0\\share\\man\\man1\\pdftohtml.1',
+   'DATA'),
+  ('poppler-0.68.0\\share\\man\\man1\\pdftoppm.1',
+   'C:\\Users\\leona\\Downloads\\Recicley '
+   'Watermark-20250911T171225Z-1-001\\Recicley '
+   'Watermark\\poppler-0.68.0\\share\\man\\man1\\pdftoppm.1',
+   'DATA'),
+  ('poppler-0.68.0\\share\\man\\man1\\pdftops.1',
+   'C:\\Users\\leona\\Downloads\\Recicley '
+   'Watermark-20250911T171225Z-1-001\\Recicley '
+   'Watermark\\poppler-0.68.0\\share\\man\\man1\\pdftops.1',
+   'DATA'),
+  ('poppler-0.68.0\\share\\man\\man1\\pdftotext.1',
+   'C:\\Users\\leona\\Downloads\\Recicley '
+   'Watermark-20250911T171225Z-1-001\\Recicley '
+   'Watermark\\poppler-0.68.0\\share\\man\\man1\\pdftotext.1',
+   'DATA'),
+  ('poppler-0.68.0\\share\\man\\man1\\pdfunite.1',
+   'C:\\Users\\leona\\Downloads\\Recicley '
+   'Watermark-20250911T171225Z-1-001\\Recicley '
+   'Watermark\\poppler-0.68.0\\share\\man\\man1\\pdfunite.1',
+   'DATA'),
   ('pyexpat.pyd', 'L:\\Python\\DLLs\\pyexpat.pyd', 'EXTENSION'),
   ('python3.dll', 'L:\\Python\\python3.dll', 'BINARY'),
   ('python313.dll', 'L:\\Python\\python313.dll', 'BINARY'),
+  ('rec.jpg',
+   'C:\\Users\\leona\\Downloads\\Recicley '
+   'Watermark-20250911T171225Z-1-001\\Recicley Watermark\\rec.jpg',
+   'DATA'),
   ('select.pyd', 'L:\\Python\\DLLs\\select.pyd', 'EXTENSION'),
-  ('unicodedata.pyd', 'L:\\Python\\DLLs\\unicodedata.pyd', 'EXTENSION')],)
+  ('unicodedata.pyd', 'L:\\Python\\DLLs\\unicodedata.pyd', 'EXTENSION'),
+  ('zlib1.dll', 'L:\\Git\\mingw64\\bin\\zlib1.dll', 'BINARY')],)
