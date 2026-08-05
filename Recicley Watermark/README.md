@@ -19,16 +19,19 @@ Aplicación de escritorio para Windows que agrega una marca de agua (imagen PNG/
 
 **Para ejecutar desde el código fuente:**
 - Python 3.13
-- Paquetes: `PyQt6`, `pdf2image`, `PyPDF2`, `Pillow`
-- Poppler para Windows (incluido en la carpeta `poppler-0.68.0/`, usado por `pdf2image` para renderizar páginas del PDF)
+- Paquetes: `PyQt6`, `PyPDF2`, `Pillow`, `reportlab`
+
+No requiere Poppler ni ningún otro binario externo: la marca de agua se superpone directamente sobre cada página (vectorial, sin rasterizar) usando `PyPDF2` + `reportlab`, todo dentro del mismo proceso de Python.
 
 ## Instalación / distribución
 
-1. Descomprime `GUI_Watermark_Windows.zip` en cualquier carpeta.
-2. Entra a la carpeta resultante `GUI_Watermark/`.
-3. Ejecuta `GUI_Watermark.exe`.
+**La forma más rápida:** entra a la carpeta `GUI_Watermark ejecutable/` y ejecuta `GUI_Watermark.exe` directamente — ya está listo para usar.
 
-> Importante: el `.exe` necesita la carpeta `_internal` a su lado (contiene PyQt6, Poppler, el ícono y demás dependencias). No muevas ni copies el `.exe` por separado; comparte siempre la carpeta completa (o el `.zip`).
+Para compartirlo con alguien más, dos opciones:
+1. Copia la carpeta `GUI_Watermark ejecutable/` completa, o
+2. Comparte el archivo `GUI_Watermark ejecutable/GUI_Watermark_Windows.zip` (versión comprimida, misma versión).
+
+> Importante: el `.exe` necesita la carpeta `_internal` a su lado (contiene PyQt6, el ícono y demás dependencias). No muevas ni copies el `.exe` por separado; comparte siempre la carpeta completa (o el `.zip`).
 
 ## Guía de uso
 
@@ -48,26 +51,29 @@ Aplicación de escritorio para Windows que agrega una marca de agua (imagen PNG/
 
 ## Reconstruir el ejecutable
 
-Con Python y las dependencias instaladas:
+Con Python y las dependencias instaladas, desde la raíz del proyecto:
 
 ```
-pip install PyQt6 pdf2image PyPDF2 Pillow pyinstaller
-python -m PyInstaller GUI_Watermark.spec --noconfirm
+pip install PyQt6 PyPDF2 Pillow reportlab pyinstaller
+python -m PyInstaller app/GUI_Watermark.spec --noconfirm
 ```
 
-El resultado queda en `dist/GUI_Watermark/`. `GUI_Watermark.spec` ya está configurado para empaquetar `rec.jpg` y la carpeta `poppler-0.68.0/` dentro del ejecutable, por lo que no hay que copiar nada manualmente.
+Esto genera `dist/GUI_Watermark/` (el `.exe` + `_internal/`) y una carpeta `build/` con archivos intermedios de PyInstaller — ambas se recrean en cada build y no están versionadas (ver `.gitignore`). `GUI_Watermark.spec` ya está configurado para empaquetar `rec.jpg` dentro del ejecutable, así que no hay que copiar nada manualmente. Cuando el build termine, copia el contenido de `dist/GUI_Watermark/` (el `.exe` + `_internal/`) para reemplazar el de `GUI_Watermark ejecutable/` y así dejar esa carpeta al día.
 
 ## Estructura del proyecto
 
-| Archivo / carpeta      | Descripción                                                            |
-|-------------------------|--------------------------------------------------------------------------|
-| `GUI_Watermark.py`       | Código fuente completo de la aplicación (interfaz + lógica).            |
-| `GUI_Watermark.spec`     | Configuración de PyInstaller para generar el `.exe`.                    |
-| `rec.jpg`                | Ícono de la ventana / aplicación.                                        |
-| `poppler-0.68.0/`        | Binarios de Poppler usados para renderizar páginas de PDF a imagen.     |
-| `dist/GUI_Watermark/`    | Resultado del último build: `.exe` + `_internal/` (listo para compartir).|
-| `build/`                 | Archivos intermedios de PyInstaller (no se distribuyen).                |
+| Carpeta / archivo                    | Descripción                                                                 |
+|---------------------------------------|-------------------------------------------------------------------------------|
+| `GUI_Watermark ejecutable/`           | **El programa listo para usar** — `.exe` + `_internal/` + zip portable.      |
+| `app/GUI_Watermark.py`                | Código fuente completo de la aplicación (interfaz + lógica).                 |
+| `app/GUI_Watermark.spec`              | Configuración de PyInstaller para generar el `.exe`.                         |
+| `app/rec.jpg`                         | Ícono de la ventana / aplicación.                                             |
+| `README.md` *(raíz del proyecto)*     | Documentación general del proyecto — este archivo.                           |
+| `docs/Documentacion_Tecnica.pdf`      | Explicación técnica módulo por módulo, función por función.                  |
+| `docs/Documentacion_Tecnica_Diagramas.pdf` | Misma documentación técnica, con diagramas.                             |
+
+`build/` y `dist/` (artefactos temporales de PyInstaller) no se versionan — se regeneran solos al reconstruir el ejecutable (ver arriba).
 
 ## Documentación técnica
 
-Para una explicación detallada, módulo por módulo y función por función, de cómo funciona el código interno, consulta `Documentacion_Tecnica.pdf`.
+Para una explicación detallada, módulo por módulo y función por función, de cómo funciona el código interno, consulta `docs/Documentacion_Tecnica.pdf`.

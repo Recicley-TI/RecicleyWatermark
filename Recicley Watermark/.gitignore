@@ -1,0 +1,10 @@
+# Artefactos de PyInstaller (se regeneran con `python -m PyInstaller app/GUI_Watermark.spec`)
+build/
+dist/
+
+# Bytecode de Python
+__pycache__/
+*.pyc
+
+# Salida de graphify (grafo generado, no es código fuente del proyecto)
+graphify-out/
