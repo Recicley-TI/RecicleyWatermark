@@ -14,6 +14,8 @@ from PIL import Image
 from reportlab.pdfgen import canvas as reportlab_canvas
 from reportlab.lib.utils import ImageReader
 
+import licensing
+
 
 # Resolución (en DPI equivalentes) a la que se rasteriza la IMAGEN de la
 # marca de agua antes de incrustarla. Ya no se rasteriza la página del PDF
@@ -402,6 +404,8 @@ class DragDropWindow(QMainWindow):
 
 def main():
     app = QApplication(sys.argv)
+    if not licensing.ensure_activated():
+        sys.exit(0)
     window = DragDropWindow()
     window.show()
     sys.exit(app.exec())
