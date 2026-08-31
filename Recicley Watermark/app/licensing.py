@@ -66,7 +66,7 @@ APP_SALT = b"Recicley-Watermark-v1"
 # tiene Recicley-TI. Generada una única vez con
 # admin_tools/generate_keypair.py. Es una clave PÚBLICA: no hay problema en
 # que viva en el código / dentro del .exe que reciben los usuarios.
-PUBLIC_KEY_HEX = "9e401e7f16cbd24654f892bb7e66df770c78c835c7b97ae31dbd96de7a9a134e"
+PUBLIC_KEY_HEX = "e1b02bc95a19b03d7772fa783005e58113925db7226c1975bc04ea9aa4da36fc"
 
 # Clave para el HMAC que protege el archivo de activación LOCAL contra
 # edición manual casual. No es un secreto fuerte (ver docstring del
