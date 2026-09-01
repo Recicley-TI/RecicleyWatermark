@@ -9,16 +9,9 @@ __pycache__/
 # Salida de graphify (grafo generado, no es código fuente del proyecto)
 graphify-out/
 
-# Clave privada de activación (Ed25519): NUNCA debe subirse al repo.
-# Solo debe existir en la máquina de Recicley-TI que emite códigos de
-# reactivación. Ver admin_tools/generate_keypair.py.
-admin_tools/*.pem
-admin_tools/private_key.pem
-
-# .exe del generador de códigos de activación: es un build local para la
-# máquina de soporte de Recicley-TI, no un artefacto del proyecto (igual
-# que build/ y dist/ para la app principal). Se reconstruye con
-# admin_tools/generate_unlock_code.spec.
-admin_tools/*.exe
+# Nota: admin_tools/private_key.pem y admin_tools/*.exe se incluyen a
+# propósito en el repo por decisión explícita (01/09/2026), pese a la
+# recomendación original de mantener la clave privada fuera del repo.
+# Ver admin_tools/generate_keypair.py.
 admin_tools/build/
 admin_tools/dist/
